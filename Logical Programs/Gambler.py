@@ -14,7 +14,7 @@ goal=200
 win=0
 loose=0
 #while loop till gambler stake=0 or stake =goal(200)
-while (stake>0 or stake<goal):
+while (stake>0 and stake<goal):
     #random var for win or loose
     gamble=random.randint(0,1)
     if gamble==0:
