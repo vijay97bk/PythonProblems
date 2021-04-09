@@ -10,8 +10,7 @@ import time
 second = 0    
 minute = 0    
 hours = 0    
-while(True):    
-    print("Simple Stopwatch(in Python) Created By Sourabh Somani...")     
+while(True):        
     print('-------------')    
     print(' %d : %d : %d '%(hours,minute,second))    
     print('-------------')    
