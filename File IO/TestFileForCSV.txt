@@ -1,0 +1,3 @@
+name,department,birthday month
+Sachin,Accounting,November
+Rohish,IT,March
