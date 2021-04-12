@@ -7,10 +7,13 @@ description = 'Write a Stopwatch Program for measuring the time that elapses bet
 
 import os    
 import time    
+
 second = 0    
 minute = 0    
 hours = 0    
+
 while(True):        
+    print('press any Clt+C to stop ')
     print('-------------')    
     print(' %d : %d : %d '%(hours,minute,second))    
     print('-------------')    
@@ -21,4 +24,4 @@ while(True):
         minute+=1    
     if(minute == 60):    
         minute = 0    
-        hours+=1    
+        hours+=1   
